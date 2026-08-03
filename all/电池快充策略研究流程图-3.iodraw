@@ -252,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="opt_group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F3;strokeColor=#E3A06B;strokeWidth=1.8;dashed=1;dashPattern=9 6;arcSize=12;" parent="1" vertex="1">
-          <mxGeometry x="190" y="750" width="1220" height="135" as="geometry" />
+          <mxGeometry x="190" y="750" width="1220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="opt_tag" value="决策优化层｜问题四：快充策略多目标优化" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DF7E40;strokeColor=#DF7E40;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;shadow=1;arcSize=18;" parent="1" vertex="1">
           <mxGeometry x="545" y="733" width="510" height="38" as="geometry" />
