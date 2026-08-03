@@ -176,7 +176,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="opt_container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9F3;strokeColor=#E39A5B;strokeWidth=2;dashed=1;dashPattern=8 6;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="275" y="940" width="1290" height="190" as="geometry" />
+          <mxGeometry x="275" y="940" width="1290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="opt_title" value="STAGE 4　问题四：充电策略多目标优化" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#D97A35;gradientColor=#F0A16A;gradientDirection=east;strokeColor=#D97A35;fontColor=#FFFFFF;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;shadow=1;arcSize=12;" parent="1" vertex="1">
           <mxGeometry x="610" y="918" width="620" height="44" as="geometry" />
