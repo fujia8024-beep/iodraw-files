@@ -11,7 +11,7 @@
           <mxGeometry x="510" y="53" width="280" height="25" as="geometry" />
         </mxCell>
         <mxCell id="stage1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#F6FBFD;strokeColor=#3BA8D0;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="55" y="130" width="1190" height="120" as="geometry" />
+          <mxGeometry x="55" y="159" width="1190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="stage2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;dashed=1;dashPattern=8 6;fillColor=#FCFCFD;strokeColor=#8585B3;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="320" width="1210" height="390" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="240" y="740" width="820" height="145" as="geometry" />
         </mxCell>
         <mxCell id="stage1-label" value="&lt;b&gt;阶段 1｜数据准备与特征构建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#179BC2;strokeColor=#179BC2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="111" width="255" height="29" as="geometry" />
+          <mxGeometry x="80" y="140" width="255" height="29" as="geometry" />
         </mxCell>
         <mxCell id="stage2-label" value="&lt;b&gt;阶段 2｜双路径预测&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#7474A8;strokeColor=#7474A8;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="303" width="205" height="34" as="geometry" />
@@ -35,13 +35,13 @@
           <mxGeometry x="80" y="723" width="205" height="34" as="geometry" />
         </mxCell>
         <mxCell id="data" value="&lt;b&gt;前 20、50、100 圈数据&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7C8F&quot; style=&quot;font-size:12px&quot;&gt;不同早期观测窗口 N&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#82C5E3;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="105" y="145" width="280" height="92" as="geometry" />
+          <mxGeometry x="105" y="174" width="280" height="92" as="geometry" />
         </mxCell>
         <mxCell id="features" value="&lt;b&gt;早期特征提取&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7C8F&quot; style=&quot;font-size:12px&quot;&gt;形成统一特征向量 Xₙ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#76B99A;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="510" y="145" width="280" height="92" as="geometry" />
+          <mxGeometry x="510" y="174" width="280" height="92" as="geometry" />
         </mxCell>
         <mxCell id="split" value="&lt;b&gt;按电池划分数据集&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#5D6E82&quot; style=&quot;font-size:12px&quot;&gt;训练集　｜　验证集　｜　测试集&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#8A6E82&quot; style=&quot;font-size:11px&quot;&gt;避免同一电池跨集合泄漏&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD8;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="915" y="138" width="280" height="106" as="geometry" />
+          <mxGeometry x="915" y="167" width="280" height="106" as="geometry" />
         </mxCell>
         <mxCell id="route1" value="&lt;b&gt;路径一｜未来 SOH 趋势与曲线外推&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#D4ECF8;strokeColor=#5DAFD3;strokeWidth=2;fontColor=#235F87;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="95" y="338" width="515" height="48" as="geometry" />
