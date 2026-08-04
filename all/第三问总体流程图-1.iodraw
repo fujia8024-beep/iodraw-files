@@ -11,7 +11,7 @@
           <mxGeometry x="510" y="53" width="280" height="25" as="geometry" />
         </mxCell>
         <mxCell id="stage1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#F6FBFD;strokeColor=#3BA8D0;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="55" y="100" width="1190" height="150" as="geometry" />
+          <mxGeometry x="55" y="130" width="1190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="stage2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;dashed=1;dashPattern=8 6;fillColor=#FCFCFD;strokeColor=#8585B3;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="45" y="320" width="1210" height="390" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="55" y="740" width="1190" height="145" as="geometry" />
         </mxCell>
         <mxCell id="stage1-label" value="&lt;b&gt;阶段 1｜数据准备与特征构建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#179BC2;strokeColor=#179BC2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="83" width="255" height="34" as="geometry" />
+          <mxGeometry x="80" y="111" width="255" height="34" as="geometry" />
         </mxCell>
         <mxCell id="stage2-label" value="&lt;b&gt;阶段 2｜双路径预测&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#7474A8;strokeColor=#7474A8;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="303" width="205" height="34" as="geometry" />
