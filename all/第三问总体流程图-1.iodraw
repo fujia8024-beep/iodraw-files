@@ -23,7 +23,7 @@
           <mxGeometry x="670" y="350" width="560" height="310" as="geometry" />
         </mxCell>
         <mxCell id="stage3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#FBF9FC;strokeColor=#9873AA;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="740" width="820" height="145" as="geometry" />
+          <mxGeometry x="240" y="733" width="820" height="145" as="geometry" />
         </mxCell>
         <mxCell id="stage1-label" value="&lt;b&gt;阶段 1｜数据准备与特征构建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#179BC2;strokeColor=#179BC2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="140" width="255" height="29" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="80" y="303" width="205" height="34" as="geometry" />
         </mxCell>
         <mxCell id="stage3-label" value="&lt;b&gt;阶段 3｜评价与解释&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#8E6AA2;strokeColor=#8E6AA2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="723" width="205" height="34" as="geometry" />
+          <mxGeometry x="160" y="723" width="205" height="34" as="geometry" />
         </mxCell>
         <mxCell id="data" value="&lt;b&gt;前 20、50、100 圈数据&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7C8F&quot; style=&quot;font-size:12px&quot;&gt;不同早期观测窗口 N&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#82C5E3;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="105" y="174" width="280" height="92" as="geometry" />
@@ -71,10 +71,10 @@
           <mxGeometry x="730" y="579" width="435" height="62" as="geometry" />
         </mxCell>
         <mxCell id="evaluation" value="&lt;b&gt;SOH 趋势与寿命预测精度评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6F6480&quot; style=&quot;font-size:12px&quot;&gt;统一比较预测误差与测试集泛化性能&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEE7F3;strokeColor=#9873AA;strokeWidth=2;shadow=1;fontColor=#3A3045;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="400" y="760" width="500" height="62" as="geometry" />
+          <mxGeometry x="400" y="753" width="500" height="62" as="geometry" />
         </mxCell>
         <mxCell id="analysis" value="&lt;b&gt;综合对比分析&lt;/b&gt;　　&lt;font color=&quot;#46627B&quot; style=&quot;font-size:12px&quot;&gt;窗口长度影响&lt;/font&gt;　｜　&lt;font color=&quot;#4F6D45&quot; style=&quot;font-size:12px&quot;&gt;特征作用分析&lt;/font&gt;　｜　&lt;font color=&quot;#9A5733&quot; style=&quot;font-size:12px&quot;&gt;两条预测路径对比&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#B8A5C3;strokeWidth=2;shadow=1;fontColor=#3A3045;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="265" y="835" width="770" height="42" as="geometry" />
+          <mxGeometry x="265" y="828" width="770" height="42" as="geometry" />
         </mxCell>
         <mxCell id="e-data-features" style="edgeStyle=none;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=classicThin;endFill=1;endSize=6;" parent="1" source="data" target="features" edge="1">
           <mxGeometry relative="1" as="geometry" />
