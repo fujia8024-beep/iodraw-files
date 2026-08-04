@@ -103,7 +103,8 @@
         <mxCell id="e-curve-eval" style="edgeStyle=segmentEdgeStyle;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=classicThin;endFill=1;endSize=6;exitX=0.5;exitY=1;entryX=0.28;entryY=0;shadow=1;shape=flexArrow;fillColor=#8AD464;" parent="1" source="curve-life" target="evaluation" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="353" y="720" />
+              <mxPoint x="350" y="641" />
+              <mxPoint x="350" y="720" />
               <mxPoint x="540" y="720" />
             </Array>
           </mxGeometry>
