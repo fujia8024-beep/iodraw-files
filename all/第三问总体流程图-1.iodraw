@@ -17,10 +17,10 @@
           <mxGeometry x="45" y="320" width="1210" height="380" as="geometry" />
         </mxCell>
         <mxCell id="route1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#EFF8FD;strokeColor=#5DAFD3;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="65" y="350" width="575" height="320" as="geometry" />
+          <mxGeometry x="65" y="350" width="565" height="320" as="geometry" />
         </mxCell>
         <mxCell id="route2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#FFF5EF;strokeColor=#E59A6F;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="660" y="350" width="575" height="335" as="geometry" />
+          <mxGeometry x="660" y="350" width="575" height="320" as="geometry" />
         </mxCell>
         <mxCell id="stage3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#FBF9FC;strokeColor=#9873AA;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="740" width="820" height="145" as="geometry" />
