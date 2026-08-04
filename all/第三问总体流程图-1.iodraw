@@ -14,7 +14,7 @@
           <mxGeometry x="55" y="159" width="1190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="stage2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;dashed=1;dashPattern=8 6;fillColor=#FCFCFD;strokeColor=#8585B3;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="320" width="1200" height="380" as="geometry" />
+          <mxGeometry x="50" y="320" width="1200" height="360" as="geometry" />
         </mxCell>
         <mxCell id="route1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#EFF8FD;strokeColor=#5DAFD3;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="350" width="560" height="310" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="135" y="495" width="435" height="62" as="geometry" />
         </mxCell>
         <mxCell id="curve-life" value="&lt;b&gt;基于 EOL 阈值曲线外推&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;得到曲线寿命 L̂curve&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#63B1D6;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="135" y="585" width="435" height="62" as="geometry" />
+          <mxGeometry x="135" y="579" width="435" height="62" as="geometry" />
         </mxCell>
         <mxCell id="log-reg" value="&lt;b&gt;对数寿命回归&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;Xₙ → log(L)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#F0B994;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="730" y="405" width="435" height="62" as="geometry" />
