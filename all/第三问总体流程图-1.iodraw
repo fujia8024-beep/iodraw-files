@@ -119,7 +119,7 @@
         <mxCell id="e-eval-analysis" style="edgeStyle=none;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=classicThin;endFill=1;endSize=6;" parent="1" source="evaluation" target="analysis" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="US4yB4gb-x7AVlwTo8n0-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="split">
+        <mxCell id="US4yB4gb-x7AVlwTo8n0-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="stage2-bg" target="split">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="410" as="sourcePoint" />
             <mxPoint x="680" y="360" as="targetPoint" />
