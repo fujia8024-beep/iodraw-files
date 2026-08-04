@@ -1,0 +1,136 @@
+<mxfile host="www.iodraw.com" modified="2026-08-04T03:10:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="q3-compact-symmetric" name="第三问总体流程图">
+    <mxGraphModel dx="1300" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="&lt;b&gt;基于早期循环数据的 SOH 趋势与寿命预测框架&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontColor=#203247;fontSize=24;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="270" y="15" width="760" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="第三问总体技术路线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontColor=#718096;fontSize=12;fontFamily=Microsoft YaHei;" vertex="1" parent="1">
+          <mxGeometry x="510" y="53" width="280" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="stage1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#F6FBFD;strokeColor=#3BA8D0;strokeWidth=2;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="100" width="1190" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;dashed=1;dashPattern=8 6;fillColor=#FCFCFD;strokeColor=#8585B3;strokeWidth=2;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="320" width="1190" height="390" as="geometry"/>
+        </mxCell>
+        <mxCell id="route1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#EFF8FD;strokeColor=#5DAFD3;strokeWidth=2;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="365" width="545" height="315" as="geometry"/>
+        </mxCell>
+        <mxCell id="route2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#FFF5EF;strokeColor=#E59A6F;strokeWidth=2;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="365" width="545" height="315" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#FBF9FC;strokeColor=#9873AA;strokeWidth=2;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="740" width="1190" height="145" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="stage1-label" value="&lt;b&gt;阶段 1｜数据准备与特征构建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#179BC2;strokeColor=#179BC2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="83" width="255" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage2-label" value="&lt;b&gt;阶段 2｜双路径预测&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#7474A8;strokeColor=#7474A8;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="303" width="205" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="stage3-label" value="&lt;b&gt;阶段 3｜评价与解释&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#8E6AA2;strokeColor=#8E6AA2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="723" width="205" height="34" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="data" value="&lt;b&gt;前 20、50、100 圈数据&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7C8F&quot; style=&quot;font-size:12px&quot;&gt;不同早期观测窗口 N&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#82C5E3;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="105" y="145" width="280" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="features" value="&lt;b&gt;早期特征提取&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7C8F&quot; style=&quot;font-size:12px&quot;&gt;形成统一特征向量 Xₙ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#76B99A;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="145" width="280" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="split" value="&lt;b&gt;按电池划分数据集&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#5D6E82&quot; style=&quot;font-size:12px&quot;&gt;训练集　｜　验证集　｜　测试集&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#8A6E82&quot; style=&quot;font-size:11px&quot;&gt;避免同一电池跨集合泄漏&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD8;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=17;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="915" y="138" width="280" height="106" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="route1" value="&lt;b&gt;路径一｜未来 SOH 趋势与曲线外推&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#D4ECF8;strokeColor=#5DAFD3;strokeWidth=2;fontColor=#235F87;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="348" width="475" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="route2" value="&lt;b&gt;路径二｜对数寿命直接回归&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F9DFD0;strokeColor=#E59A6F;strokeWidth=2;fontColor=#A8532D;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="705" y="348" width="475" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="branch-hub" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#64748B;strokeColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="645" y="305" width="10" height="10" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="degradation" value="&lt;b&gt;未来退化量预测&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;Xₙ → D̂ₙ,ₜ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#8FCBE6;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="415" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="soh" value="&lt;b&gt;SOH 点重构与趋势评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;D̂ₙ,ₜ → SOĤ(t)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#79BFDF;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="505" width="415" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="curve-life" value="&lt;b&gt;基于 EOL 阈值曲线外推&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;得到曲线寿命 L̂curve&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#63B1D6;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="415" height="62" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="log-reg" value="&lt;b&gt;对数寿命回归&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;Xₙ → log(L)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#F0B994;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="735" y="420" width="415" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="inverse" value="&lt;b&gt;指数反变换&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;log(L̂) → L̂&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#EBAA80;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="735" y="505" width="415" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="direct-life" value="&lt;b&gt;直接寿命预测&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;得到直接寿命 L̂direct&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#E49A6D;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="735" y="590" width="415" height="62" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="evaluation" value="&lt;b&gt;SOH 趋势与寿命预测精度评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6F6480&quot; style=&quot;font-size:12px&quot;&gt;统一比较预测误差与测试集泛化性能&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEE7F3;strokeColor=#9873AA;strokeWidth=2;shadow=1;fontColor=#3A3045;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="500" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="analysis" value="&lt;b&gt;综合对比分析&lt;/b&gt;　　&lt;font color=&quot;#46627B&quot; style=&quot;font-size:12px&quot;&gt;窗口长度影响&lt;/font&gt;　｜　&lt;font color=&quot;#4F6D45&quot; style=&quot;font-size:12px&quot;&gt;特征作用分析&lt;/font&gt;　｜　&lt;font color=&quot;#9A5733&quot; style=&quot;font-size:12px&quot;&gt;两条预测路径对比&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#B8A5C3;strokeWidth=2;shadow=1;fontColor=#3A3045;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="265" y="835" width="770" height="42" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-data-features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="data" target="features">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-features-split" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="features" target="split">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-split-hub" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=22;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="split" target="branch-hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="275"/>
+              <mxPoint x="650" y="275"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-hub-route1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=22;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="branch-hub" target="route1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="650" y="330"/><mxPoint x="358" y="330"/></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-hub-route2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=22;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="branch-hub" target="route2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="650" y="330"/><mxPoint x="943" y="330"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="e-r1-d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2F80B9;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="route1" target="degradation"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e-d-soh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2F80B9;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="degradation" target="soh"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e-soh-curve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#2F80B9;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="soh" target="curve-life"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e-r2-log" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#D67B45;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="route2" target="log-reg"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e-log-inverse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#D67B45;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="log-reg" target="inverse"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e-inverse-direct" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#D67B45;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="inverse" target="direct-life"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e-curve-eval" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=20;html=1;strokeColor=#2F80B9;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.28;entryY=0;" edge="1" parent="1" source="curve-life" target="evaluation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="358" y="725"/><mxPoint x="540" y="725"/></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-direct-eval" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=20;html=1;strokeColor=#D67B45;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.72;entryY=0;" edge="1" parent="1" source="direct-life" target="evaluation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="943" y="725"/><mxPoint x="760" y="725"/></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-eval-analysis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6F617A;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="evaluation" target="analysis"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
