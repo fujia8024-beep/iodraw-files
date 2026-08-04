@@ -56,7 +56,7 @@
           <mxGeometry x="200" y="405" width="305" height="45" as="geometry" />
         </mxCell>
         <mxCell id="soh" value="&lt;b&gt;SOH 点重构与趋势评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;D̂ₙ,ₜ → SOĤ(t)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#79BFDF;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="135" y="495" width="325" height="55" as="geometry" />
+          <mxGeometry x="200" y="495" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="curve-life" value="&lt;b&gt;基于 EOL 阈值曲线外推&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;得到曲线寿命 L̂curve&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#63B1D6;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="135" y="579" width="435" height="62" as="geometry" />
