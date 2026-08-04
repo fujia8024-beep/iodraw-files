@@ -53,7 +53,7 @@
           <mxGeometry x="645" y="305" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="degradation" value="&lt;b&gt;未来退化量预测&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;Xₙ → D̂ₙ,ₜ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#8FCBE6;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="135" y="405" width="435" height="62" as="geometry" />
+          <mxGeometry x="135" y="405" width="215" height="25" as="geometry" />
         </mxCell>
         <mxCell id="soh" value="&lt;b&gt;SOH 点重构与趋势评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;D̂ₙ,ₜ → SOĤ(t)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#79BFDF;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="135" y="495" width="435" height="62" as="geometry" />
