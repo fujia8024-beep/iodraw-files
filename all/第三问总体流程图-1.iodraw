@@ -20,7 +20,7 @@
           <mxGeometry x="70" y="350" width="560" height="310" as="geometry" />
         </mxCell>
         <mxCell id="route2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=7 5;fillColor=#FFF5EF;strokeColor=#E59A6F;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="670" y="350" width="560" height="320" as="geometry" />
+          <mxGeometry x="670" y="350" width="560" height="310" as="geometry" />
         </mxCell>
         <mxCell id="stage3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#FBF9FC;strokeColor=#9873AA;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="740" width="820" height="145" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="730" y="495" width="435" height="62" as="geometry" />
         </mxCell>
         <mxCell id="direct-life" value="&lt;b&gt;直接寿命预测&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#66788C&quot; style=&quot;font-size:12px&quot;&gt;得到直接寿命 L̂direct&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFFFFF;strokeColor=#E49A6D;strokeWidth=2;shadow=1;fontColor=#26384A;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="730" y="585" width="435" height="62" as="geometry" />
+          <mxGeometry x="730" y="579" width="435" height="62" as="geometry" />
         </mxCell>
         <mxCell id="evaluation" value="&lt;b&gt;SOH 趋势与寿命预测精度评价&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6F6480&quot; style=&quot;font-size:12px&quot;&gt;统一比较预测误差与测试集泛化性能&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#EEE7F3;strokeColor=#9873AA;strokeWidth=2;shadow=1;fontColor=#3A3045;fontSize=16;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="400" y="760" width="500" height="62" as="geometry" />
