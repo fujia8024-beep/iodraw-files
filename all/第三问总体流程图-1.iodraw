@@ -23,7 +23,7 @@
           <mxGeometry x="660" y="350" width="575" height="335" as="geometry" />
         </mxCell>
         <mxCell id="stage3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;fillColor=#FBF9FC;strokeColor=#9873AA;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="740" width="1005" height="145" as="geometry" />
+          <mxGeometry x="240" y="740" width="820" height="145" as="geometry" />
         </mxCell>
         <mxCell id="stage1-label" value="&lt;b&gt;阶段 1｜数据准备与特征构建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#179BC2;strokeColor=#179BC2;fontColor=#FFFFFF;fontSize=15;fontFamily=Microsoft YaHei;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="111" width="255" height="29" as="geometry" />
@@ -81,14 +81,6 @@
         </mxCell>
         <mxCell id="e-features-split" style="edgeStyle=none;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=classicThin;endFill=1;endSize=6;" parent="1" source="features" target="split" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e-split-hub" style="edgeStyle=segmentEdgeStyle;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="split" target="branch-hub" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1055" y="275" />
-              <mxPoint x="650" y="275" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="e-hub-route1" style="edgeStyle=segmentEdgeStyle;rounded=0;html=1;strokeColor=#6B7280;strokeWidth=1.4;endArrow=classicThin;endFill=1;endSize=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="branch-hub" target="route1" edge="1">
           <mxGeometry relative="1" as="geometry">
